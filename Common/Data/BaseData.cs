@@ -93,7 +93,6 @@ namespace QuantConnect.Data
         /// <summary>
         /// Symbol representation for underlying Security
         /// </summary>
-        [ProtoMember(5)]
         public Symbol Symbol { get; set; } = Symbol.Empty;
 
         /// <summary>
