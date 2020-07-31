@@ -28,7 +28,7 @@ namespace QuantConnect.Lean.Engine.DataFeeds
     /// </summary>
     public static class SubscriptionDataSourceReader
     {
-        private static readonly bool ShowMissingDataLogs = Config.GetBool("show-missing-data-logs", false);
+        private static readonly bool ShowMissingDataLogs = true;
 
         /// <summary>
         /// Creates a new <see cref="ISubscriptionDataSourceReader"/> capable of handling the specified <paramref name="source"/>
